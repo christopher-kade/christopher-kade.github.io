@@ -6,15 +6,27 @@
       :root {
         color-scheme: light dark;
       }
+      a {
+        text-decoration: none;
+      }
+      a:visited {
+        color: light-dark(#eee, #111);
+      }
+      a:hover {
+        color: light-dark(#ddd, #222);
+      }
+      a:active {
+        color: light-dark(#fff, #000);
+      }
       body {
-        color: light-dark(#ccc, #333);
-        background-color: light-dark(#333, #ccc);
+        color: light-dark(#111, #eee);
+        background-color: light-dark(#eee, #111);
       }
     </style>
   </head>
   <body>
     <div style="padding: 10vw;">
-      <h1><a href="https://millionlive.bsky.social" style="text-decoration: none;">Coming Soon...</a></h1>
+      <h1><a href="https://millionlive.bsky.social">Coming Soon...</a></h1>
     </div>
   </body>
 </html>
